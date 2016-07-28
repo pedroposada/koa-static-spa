@@ -22,9 +22,8 @@ $ npm install koa-serve-spa
 
  - `folder` Folder with files to serve, defaults to "/app"
  - `prefix` All paths will be prefixed with this value. Defaults to "/app"
-
-Plus all connect-history-api-fallback options
-Plus all koa-static options
+ - Plus all connect-history-api-fallback options
+ - Plus all koa-static options
 
 ## Example
 
