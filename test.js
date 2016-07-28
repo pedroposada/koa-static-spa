@@ -67,14 +67,14 @@ describe('success tests', () => {
     .end(done)
   })
 
-  it('should redirect once, then respond with body "contents of index.html" and status 200.', (done) => {
+  it('should redirect once, then respond with body "contents of index.html\n" and status 200.', (done) => {
     const app = koa()
     app.use(staticspa())
     request(app.listen())
     .get('/app')
     .redirects(1)
     .expect(200)
-    .expect('contents of index.html')
+    .expect('contents of index.html\n')
     .end(done)
   })
 })
