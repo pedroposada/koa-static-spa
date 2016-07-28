@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "serve single page app with koa, with support for history-api",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pedroposada/koa-static-spa.git"
+  },
   "scripts": {
     "test": "better-npm-run test"
   },
