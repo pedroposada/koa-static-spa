@@ -39,7 +39,7 @@ app.use(servespa())
 app.use(staticspa({ folder: '/myapp', prefix: '/content' }))
 
 // or use absolute folder paths
-app.use(staticspa({ folder: \`${__dirname}/test/fixtures\` }))
+app.use(staticspa({ folder: `${__dirname}/test/fixtures` }))
 
 app.listen(3000)
 
