@@ -10,7 +10,7 @@ This middleware solves that for you, it will rewrite all paths to `/index.html` 
 It hands over the control of the pages to your SPA's router after a hard browser's refresh.
 
 ## Requirements
-koa 1.x
+[koa 1.x](https://github.com/koajs/koa/tree/1.2.1)
 
 ## Installation
 
@@ -22,8 +22,8 @@ $ npm install koa-serve-spa
 
  - `folder` Folder with files to serve, defaults to "/app"
  - `prefix` All paths will be prefixed with this value. Defaults to "/app"
- - Plus all connect-history-api-fallback options
- - Plus all koa-static options
+ - Plus all [connect-history-api-fallback](https://github.com/bripkens/connect-history-api-fallback) options
+ - Plus all [koa-static](https://github.com/koajs/static) options
 
 ## Example
 
