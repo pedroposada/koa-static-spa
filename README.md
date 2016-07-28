@@ -15,7 +15,7 @@ It hands over the control of the pages to your SPA's router after a hard browser
 ## Installation
 
 ```bash
-$ npm install koa-serve-spa
+$ npm install koa-static-spa
 ```
 
 ## Options
