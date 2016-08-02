@@ -15,8 +15,7 @@ It hands over the control of the pages to your SPA's router after a hard browser
 ## Installation
 
 ```bash
-$ git clone https://github.com/pedroposada/koa-static-spa.git ./node_modules/koa-static-spa
-$ npm install ./node_modules/koa-static-spa
+$ npm install https://github.com/pedroposada/koa-static-spa.git
 ```
 
 ## Options
